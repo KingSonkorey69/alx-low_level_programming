@@ -1,9 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - the lowercase alphabet in reverse.
+ * main - main block
+ * Description: Print the alphabet in reverse order in lowercase.
  * Return: 0
  */
-iint main(void)
+int main(void)
 {
 	char ch;
 
