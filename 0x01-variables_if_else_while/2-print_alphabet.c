@@ -5,7 +5,14 @@
  */
 int main(void)
 {
-	char ch = 'abcdefghijklmnopqrstuvwxyz';
-	putchar("Lowercase English Alphabets:\n", ch);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+	putchar('\n');
+
 	return (0);
 }
