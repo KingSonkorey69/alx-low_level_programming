@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - main block
- * Return - 0
+ * Return : 0
  */
 int main(void)
 {
@@ -16,16 +16,15 @@ int main(void)
 
 	if (n > 0)
 	{
-	printf("%d is positive", n);
+	printf("%i is positive\n", n);
 	}
-	if (n == 0)
+	else if (n < 0)
 	{
-	printf("%d is zero", n);
+	printf("%i is negative\n", n);
 	}
-	if (n < 0)
+	else
 	{
-	printf("%d is negative", n);
+	printf("%i is zero\n", n);
 	}
-	/* your code goes there */
 	return (0);
 }
