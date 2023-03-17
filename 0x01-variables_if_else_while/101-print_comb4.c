@@ -5,20 +5,25 @@
  */
 int main(void)
 {
-	int i, j, k;
+	int i, j, k, l;
 
-	for (i = 0; i < 800; i++)
+	for (i = 0; i < 1000; i++)
 	{
 		j = i / 100;
-		k = i % 100;
+		k = (i / 10) % 10;
+		l = i % 10;
 
-		putchar(j + '0');
-		putchar(k + '0');
-
-		if (i < 799)
+		if (j < k && k < l)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(j + '0');
+			putchar(k + '0');
+			putchar(l + '0');
+
+			if (i < 700)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
 	}
 	putchar('\n');
