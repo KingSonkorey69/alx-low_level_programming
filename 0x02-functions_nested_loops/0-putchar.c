@@ -1,12 +1,14 @@
+#include "0-putchar"
+
 /**
- *main - This is a program that prints _putchar, followed by a new line.
- *Return - 0.
+*main - This is a program that prints _putchar, followed by a new line.
+*Return - 0;
 */
-#include<stdio.h>
 
 int main(void)
 {
-_putchar("\n");
+putchar("_putchar");
+putchar("\n");
 
 return (0);
 }
