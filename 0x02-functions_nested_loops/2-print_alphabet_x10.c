@@ -1,20 +1,8 @@
 #include "main.h"
-#include<stdio.h>
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * print_alphabet_x10 - Print alphabet in lowercase 10 times
+ * Return: 0
  */
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
-}
-
-/**
-* print_alphabet_x10 - that prints 10 times the alphabet.
-* Return: 0
-*/
 void print_alphabet_x10(void)
 {
 	int i = 0;
@@ -26,7 +14,7 @@ void print_alphabet_x10(void)
 		while (ch <= 'z')
 		{
 			_putchar(ch);
-			ch++;
+			c++;
 		}
 		_putchar('\n');
 		i++;
