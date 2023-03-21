@@ -1,13 +1,15 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
-*main - This is a program that prints _putchar, followed by a new line.
-*Return - 0;
-*/
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
 
 int main(void)
 {
-putchar("_putchar");
-putchar("\n");
+_putchar("Samuel");
+_putchar("\n");
 
 return (0);
 }
