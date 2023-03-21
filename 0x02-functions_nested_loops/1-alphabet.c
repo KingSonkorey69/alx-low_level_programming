@@ -7,9 +7,14 @@
  */
 int main(void)
 {
-_putchar("abcdefghijklmnopqrstuvwxyz");
+char ch = 'a';
+for (ch = 'a'; ch < 'z'; ch++)
+{
+_putchar(ch);
+}
 
-_putchar("\n");
+_putchar('\n');
 
 return (0);
+
 }
