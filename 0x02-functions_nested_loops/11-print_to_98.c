@@ -3,14 +3,32 @@
  * print_to_98 - Print all natural numbers from n to 98
  * @n: int type number
  */
-
 void print_to_98(int n)
 {
-int x;
-for (x < 0; x <= 200; x++)
+if (n > 98)
 {
-_putchar("%d", x);
+while (n >= 98)
+{
+printf("%d", n);
+if (n != 98)
+{
+printf(", ");
 }
-_putchar("\n");
+n--;
+}
+}
+else
+{
+while (n <= 98)
+{
+printf("%d", n);
+if (n != 98)
+{
+printf(", ");
+}
+n++;
+}
+}
+printf("\n");
+}
 
-}
