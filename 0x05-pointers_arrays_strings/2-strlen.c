@@ -8,7 +8,12 @@
   */
 int _strlen(char *s)
 {
-	*s[10] = 'Samuel';
+	int c;
 
-	_putchar("The Lenght of the string is: ", strlen(*s));
+	for (c = 0; *s != '\0'; s++)
+	{
+		c++;
+	}
+
+	return (c);
 }
